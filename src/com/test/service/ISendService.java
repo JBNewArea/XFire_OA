@@ -6,5 +6,5 @@ public interface ISendService {
 	
 	public String SendMsg(String phone,String content)throws ClientException,InterruptedException;
 	
-	public Msg getMsg(Msg msg);
+	public Msg getMsg(Msg msg); 
 }
