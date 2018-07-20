@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <beans xmlns="http://xfire.codehaus.org/config/1.0">  -->
+<beans>
+	<!--<service xmlns="http://xfire.codehaus.org/config/1.0">  
+    </service> -->
+    
+	<service xmlns="http://xfire.codehaus.org/config/1.0">
+		<name>SendService</name>
+		<serviceClass>com.test.service.ISendService</serviceClass>
+		<implementationClass>com.test.service.SendService
+		</implementationClass>
+	</service>
+</beans> 
